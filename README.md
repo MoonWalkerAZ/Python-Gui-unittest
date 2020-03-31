@@ -28,3 +28,7 @@ Za izvajanje posamičnih testov moramo izbrati zavihek »Posamični test«. Pred
 Implementirana je tudi možnost iskanja testov po njihovem imenu. To storimo tako, da v belo polje »Išči…« vnesemo ime testa. Ko vnašamo ime se nam sočasno filtrira polje v katerem so naloženi testi.
 
 ![Globalni Test 2](/zaslonske_slike/posamicen_test.png)
+
+![Globalni Test 2](/zaslonske_slike/posamicen_test2.png)
+
+Po končanem izvajanju tako globalnega kot posamičnih testov se ustvari poročilo testov, ki se shrani v mapo »porocila«. Rezultati izvajanj se zapišejo tudi v podatkovno bazo.
