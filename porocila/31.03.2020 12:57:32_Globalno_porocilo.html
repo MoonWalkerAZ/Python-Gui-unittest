@@ -1,0 +1,92 @@
+<html><head><style>table, th, td {border: 1px solid black;border-collapse: collapse;}</style><meta charset='UTF-8'><title>Poročilo</title></head><body><p>Datum: 31.03.2020 | 12:57:32</p><h1>Globalno poročilo izvajanja (številka plošče), Čas (1.94s):</h1><table style='width:100%'><tr><th>Ime testa</th><th>Čas izvajanja</th><th>Status</th><th>Opis napake</th></tr><tr><td>test_seEn.TestseEn.test_alizgoraj</td><td>(0.0s)</td><td bgcolor='#39ae8e'>OK</td><td>/</td></tr><tr><td>test_seEn.TestseEn.test_narazen</td><td>(0.21s)</td><td bgcolor='#f01616'>FAIL</td><td>Traceback (most recent call last):
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 628, in run
+    testMethod()
+
+  File "/Users/aljazzajc/PODATKI/Ema-projekt/visaUiProject/testeki/test_seEn.py", line 28, in test_narazen
+    self.assertEqual(s.split(), ['hello2', 'world'])
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 1058, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 1040, in assertSequenceEqual
+    self.fail(msg)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 693, in fail
+    raise self.failureException(msg)
+
+AssertionError: Lists differ: ['hello', 'world'] != ['hello2', 'world']
+
+First differing element 0:
+'hello'
+'hello2'
+
+- ['hello', 'world']
++ ['hello2', 'world']
+?        +
+
+</td></tr><tr><td>test_seEn.TestseEn.test_zgoraj</td><td>(0.5s)</td><td bgcolor='#f01616'>FAIL</td><td>Traceback (most recent call last):
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 628, in run
+    testMethod()
+
+  File "/Users/aljazzajc/PODATKI/Ema-projekt/visaUiProject/testeki/test_seEn.py", line 20, in test_zgoraj
+    self.assertEqual('foo2'.upper(), 'FOO')
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 693, in fail
+    raise self.failureException(msg)
+
+AssertionError: 'FOO2' != 'FOO'
+- FOO2
+?    -
++ FOO
+
+</td></tr><tr><td>test_visaTests.TestVisaMethods.test_isupper</td><td>(0.0s)</td><td bgcolor='#39ae8e'>OK</td><td>/</td></tr><tr><td>test_visaTests.TestVisaMethods.test_split</td><td>(1.2s)</td><td bgcolor='#f01616'>FAIL</td><td>Traceback (most recent call last):
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 628, in run
+    testMethod()
+
+  File "/Users/aljazzajc/PODATKI/Ema-projekt/visaUiProject/testeki/test_visaTests.py", line 31, in test_split
+    self.assertEqual(s.split(), ['hello2', 'world'])
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 1058, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 1040, in assertSequenceEqual
+    self.fail(msg)
+
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 693, in fail
+    raise self.failureException(msg)
+
+AssertionError: Lists differ: ['hello', 'world'] != ['hello2', 'world']
+
+First differing element 0:
+'hello'
+'hello2'
+
+- ['hello', 'world']
++ ['hello2', 'world']
+?        +
+
+</td></tr><tr><td>test_visaTests.TestVisaMethods.test_upper</td><td>(0.0s)</td><td bgcolor='#CCCC00'>SKIP</td><td>demonstrating skipping</td></tr></table></body></html>

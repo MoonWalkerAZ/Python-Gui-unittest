@@ -1,0 +1,7 @@
+
+.idea/inspectionProfiles/
+__pycache__/
+
+.idea/
+myvenv/
+venv/
