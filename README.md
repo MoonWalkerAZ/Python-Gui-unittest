@@ -9,7 +9,7 @@ Kratka navodila uporabe:
 
 Ob zagonu programa se odpre grafično okolje. Pred testiranjem moremo izbrati mapo v kateri se nahajajo unittesti. To storimo tako, da kliknemo na gumb izberi mapo. Ko to izberemo se nam izpiše njena pot, ter ozadje se obarva zeleno. To lahko vidimo na spodnji sliki.
 
-![Globalni Test 1](/zaslonske_slike/globalni_test.png | width=100)
+![Globalni Test 1](/zaslonske_slike/globalni_test.png | width=48)
 
 * Globalni testi
 
