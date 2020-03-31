@@ -23,4 +23,8 @@ Ob zagonu programa se odpre grafično okolje. Pred testiranjem moremo izbrati ma
 
 * Posamični testi oz. izbira določenih testov, ki se nahajajo v class-u.
 
+Za izvajanje posamičnih testov moramo izbrati zavihek »Posamični test«. Pred izvajanjem posamičnih testov je pogoj seveda izbrana ustrezna mapa v kateri se ti testi nahajajo. Ko imamo izbrano mapo, lahko teste naložimo v naš grafični vmesnik s klikom na gumb »Naloži teste«. Naloženi testi se prikažejo v belem polju, ki se nahaja pod gumbom za nalaganje testov. S klikom na majhne kvadratke, ki so izrisani pred imenom posameznega testa izberemo posamičen test. Nato kliknemo na gumb »Zaženi posamične teste«. Enako kot pri globalnem testu se prikažejo vsi neuspeli testi v spodnjem belem polju.
 
+Implementirana je tudi možnost iskanja testov po njihovem imenu. To storimo tako, da v belo polje »Išči…« vnesemo ime testa. Ko vnašamo ime se nam sočasno filtrira polje v katerem so naloženi testi.
+
+![Globalni Test 2](/zaslonske_slike/posamicen_test.png)
